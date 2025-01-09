@@ -101,7 +101,7 @@ const Page = () => {
               <h3 className="text-lg font-bold text-primary">{note.title}</h3>
               <p className="mt-2 text-wrap text-base-content">
                 {/* Truncate content if it exceeds 100 characters */}
-                {truncateContent(note.content, 50)}
+                {truncateContent(note.content, 40)}
               </p>
             </li>
           ))}
